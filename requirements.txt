@@ -1,0 +1,8 @@
+radon>=6.0
+pandas>=2.2
+matplotlib>=3.9
+pylint>=3.3        # provides pyreverse (optional UML script)
+pytest>=8.3
+pytest-cov>=6.0
+asgiref>=3.8       # needed by Flask's async tests
+python-dotenv>=1.0 # needed by Flask's CLI tests

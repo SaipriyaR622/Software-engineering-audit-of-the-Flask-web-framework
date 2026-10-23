@@ -1,0 +1,92 @@
+{
+  "head_commit": "d086db85",
+  "head_date": "2026-10-07",
+  "first_commit_date": "2010-04-06",
+  "latest_tag": "3.1.3",
+  "total_commits": 5562,
+  "contributors": 858,
+  "top5_authors": [
+    [
+      "David Lord",
+      1861
+    ],
+    [
+      "Armin Ronacher",
+      1191
+    ],
+    [
+      "Markus Unterwaditzer",
+      274
+    ],
+    [
+      "Ron DuPlain",
+      122
+    ],
+    [
+      "Kenneth Reitz",
+      116
+    ]
+  ],
+  "top5_commit_share": 64.1,
+  "commits_per_year": {
+    "2010": 556,
+    "2011": 463,
+    "2012": 332,
+    "2013": 321,
+    "2014": 465,
+    "2015": 266,
+    "2016": 299,
+    "2017": 434,
+    "2018": 321,
+    "2019": 345,
+    "2020": 263,
+    "2021": 458,
+    "2022": 368,
+    "2023": 325,
+    "2024": 172,
+    "2025": 90,
+    "2026": 84
+  },
+  "loc_src": {
+    "loc": 9507,
+    "sloc": 4215,
+    "comments": 719,
+    "multi": 2738,
+    "blank": 1944,
+    "files": 24
+  },
+  "loc_tests": {
+    "loc": 7956,
+    "sloc": 5647,
+    "comments": 171,
+    "multi": 48,
+    "blank": 2105,
+    "files": 41
+  },
+  "modules": [
+    "flask/__init__.py",
+    "flask/__main__.py",
+    "flask/app.py",
+    "flask/blueprints.py",
+    "flask/cli.py",
+    "flask/config.py",
+    "flask/ctx.py",
+    "flask/debughelpers.py",
+    "flask/globals.py",
+    "flask/helpers.py",
+    "flask/json/__init__.py",
+    "flask/json/provider.py",
+    "flask/json/tag.py",
+    "flask/logging.py",
+    "flask/sansio/app.py",
+    "flask/sansio/blueprints.py",
+    "flask/sansio/scaffold.py",
+    "flask/sessions.py",
+    "flask/signals.py",
+    "flask/templating.py",
+    "flask/testing.py",
+    "flask/typing.py",
+    "flask/views.py",
+    "flask/wrappers.py"
+  ]
+}

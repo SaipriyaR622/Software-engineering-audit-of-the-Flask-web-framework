@@ -1,0 +1,27 @@
+{
+  "documented_default": "utf-8 (CHANGES.rst, version 3.1.0, issue 5504)",
+  "declared_default": {
+    "Flask.open_resource": null,
+    "Flask.open_instance_resource": "utf-8",
+    "Blueprint.open_resource": "utf-8"
+  },
+  "runtime": {
+    "Flask.open_resource": {
+      "file_encoding_used": "utf-8",
+      "fell_back_to_locale": true
+    },
+    "Flask.open_instance_resource": {
+      "file_encoding_used": "utf-8",
+      "fell_back_to_locale": false
+    },
+    "Blueprint.open_resource": {
+      "file_encoding_used": "utf-8",
+      "fell_back_to_locale": false
+    }
+  },
+  "matches_documentation": {
+    "Flask.open_resource": false,
+    "Flask.open_instance_resource": true,
+    "Blueprint.open_resource": true
+  }
+}

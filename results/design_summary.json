@@ -1,0 +1,228 @@
+{
+  "modules": 24,
+  "classes": 53,
+  "import_edges": {
+    "runtime": 56,
+    "lazy": 4,
+    "typing_only": 26
+  },
+  "cycles_runtime_only": [],
+  "cycles_if_lazy_were_top_level": [
+    [
+      "blueprints",
+      "debughelpers",
+      "sansio.app",
+      "sansio.blueprints",
+      "sansio.scaffold",
+      "templating"
+    ]
+  ],
+  "cycles_if_all_imports_top_level": [
+    [
+      "app",
+      "blueprints",
+      "cli",
+      "config",
+      "ctx",
+      "debughelpers",
+      "globals",
+      "helpers",
+      "json",
+      "json.provider",
+      "json.tag",
+      "logging",
+      "sansio.app",
+      "sansio.blueprints",
+      "sansio.scaffold",
+      "sessions",
+      "templating",
+      "testing",
+      "wrappers"
+    ]
+  ],
+  "lazy_imports": {
+    "app": [
+      "debughelpers",
+      "testing"
+    ],
+    "cli": [],
+    "templating": [
+      "debughelpers"
+    ],
+    "wrappers": [
+      "debughelpers"
+    ]
+  },
+  "class_bases": {
+    "app.Flask": [
+      "App"
+    ],
+    "blueprints.Blueprint": [
+      "Blueprint"
+    ],
+    "cli.AppGroup": [
+      "click.Group"
+    ],
+    "cli.FlaskGroup": [
+      "AppGroup"
+    ],
+    "config.Config": [
+      "dict"
+    ],
+    "sessions.SessionMixin": [
+      "MutableMapping"
+    ],
+    "sessions.SecureCookieSession": [
+      "CallbackDict",
+      "SessionMixin"
+    ],
+    "sessions.NullSession": [
+      "SecureCookieSession"
+    ],
+    "sessions.SessionInterface": [],
+    "sessions.SecureCookieSessionInterface": [
+      "SessionInterface"
+    ],
+    "testing.FlaskClient": [
+      "Client"
+    ],
+    "views.View": [],
+    "views.MethodView": [
+      "View"
+    ],
+    "wrappers.Request": [
+      "Request"
+    ],
+    "wrappers.Response": [
+      "Response"
+    ],
+    "json.provider.JSONProvider": [],
+    "json.provider.DefaultJSONProvider": [
+      "JSONProvider"
+    ],
+    "sansio.app.App": [
+      "Scaffold"
+    ],
+    "sansio.blueprints.Blueprint": [
+      "Scaffold"
+    ],
+    "sansio.scaffold.Scaffold": []
+  },
+  "coupling": [
+    {
+      "module": "globals",
+      "fan_out": 0,
+      "fan_in": 11
+    },
+    {
+      "module": "app",
+      "fan_out": 10,
+      "fan_in": 0
+    },
+    {
+      "module": "helpers",
+      "fan_out": 2,
+      "fan_in": 8
+    },
+    {
+      "module": "sansio.app",
+      "fan_out": 8,
+      "fan_in": 2
+    },
+    {
+      "module": "ctx",
+      "fan_out": 4,
+      "fan_in": 3
+    },
+    {
+      "module": "templating",
+      "fan_out": 4,
+      "fan_in": 3
+    },
+    {
+      "module": "blueprints",
+      "fan_out": 5,
+      "fan_in": 1
+    },
+    {
+      "module": "cli",
+      "fan_out": 2,
+      "fan_in": 4
+    },
+    {
+      "module": "typing",
+      "fan_out": 0,
+      "fan_in": 6
+    },
+    {
+      "module": "sansio.scaffold",
+      "fan_out": 3,
+      "fan_in": 3
+    },
+    {
+      "module": "signals",
+      "fan_out": 0,
+      "fan_in": 4
+    },
+    {
+      "module": "wrappers",
+      "fan_out": 3,
+      "fan_in": 1
+    },
+    {
+      "module": "json",
+      "fan_out": 2,
+      "fan_in": 2
+    },
+    {
+      "module": "debughelpers",
+      "fan_out": 3,
+      "fan_in": 0
+    },
+    {
+      "module": "sessions",
+      "fan_out": 1,
+      "fan_in": 2
+    },
+    {
+      "module": "sansio.blueprints",
+      "fan_out": 2,
+      "fan_in": 1
+    },
+    {
+      "module": "logging",
+      "fan_out": 1,
+      "fan_in": 1
+    },
+    {
+      "module": "testing",
+      "fan_out": 2,
+      "fan_in": 0
+    },
+    {
+      "module": "views",
+      "fan_out": 2,
+      "fan_in": 0
+    },
+    {
+      "module": "json.provider",
+      "fan_out": 0,
+      "fan_in": 2
+    },
+    {
+      "module": "json.tag",
+      "fan_out": 1,
+      "fan_in": 1
+    },
+    {
+      "module": "config",
+      "fan_out": 0,
+      "fan_in": 1
+    },
+    {
+      "module": "__main__",
+      "fan_out": 1,
+      "fan_in": 0
+    }
+  ]
+}

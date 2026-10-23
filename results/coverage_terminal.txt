@@ -1,0 +1,40 @@
+........................................................................ [ 14%]
+........................................................................ [ 29%]
+........................................................................ [ 43%]
+........................................................................ [ 58%]
+........................................................................ [ 72%]
+........................................................................ [ 87%]
+..............................................................           [100%]
+=============================== tests coverage ================================
+_______________ coverage: platform win32, python 3.13.7-final-0 _______________
+
+Name                             Stmts   Miss Branch BrPart  Cover
+------------------------------------------------------------------
+src\flask\__init__.py               39      0      0      0   100%
+src\flask\__main__.py                2      2      0      0     0%
+src\flask\app.py                   437     41    190     17    89%
+src\flask\blueprints.py             34      8     10      2    68%
+src\flask\cli.py                   428     54    148     18    85%
+src\flask\config.py                108      2     42      1    98%
+src\flask\ctx.py                   167     18     38     10    85%
+src\flask\debughelpers.py           87     10     36     11    81%
+src\flask\globals.py                18      2      2      1    85%
+src\flask\helpers.py               130      6     38      3    93%
+src\flask\json\__init__.py          25      3      8      2    85%
+src\flask\json\provider.py          64      4     16      2    92%
+src\flask\json\tag.py              132      0     20      0   100%
+src\flask\logging.py                30      0     12      0   100%
+src\flask\sansio\app.py            244      7     72      4    96%
+src\flask\sansio\blueprints.py     235      4     72      8    96%
+src\flask\sansio\scaffold.py       208     10     40      4    93%
+src\flask\sessions.py              113      0     18      0   100%
+src\flask\signals.py                13      0      0      0   100%
+src\flask\templating.py            103      6     28      6    89%
+src\flask\testing.py               112      4     32      3    95%
+src\flask\typing.py                 22      0      0      0   100%
+src\flask\views.py                  53      0     20      1    99%
+src\flask\wrappers.py               85      0     24      0   100%
+------------------------------------------------------------------
+TOTAL                             2889    181    866     93    92%
+Coverage JSON written to file /c/Users/saipr/Downloads/flask-se-audit (2)/flask-se-audit/results/coverage.json
+494 passed in 12.60s

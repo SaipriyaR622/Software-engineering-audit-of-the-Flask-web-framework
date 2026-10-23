@@ -1,0 +1,52 @@
+{
+  "window_years": 5,
+  "since": "2021-10-07",
+  "files": 24,
+  "top5": [
+    {
+      "file": "flask\\app.py",
+      "commits": 0.0,
+      "lines_changed": 0.0,
+      "total_cc": 162.0,
+      "max_cc": 16.0,
+      "mi": 22.2,
+      "hotspot_score": NaN
+    },
+    {
+      "file": "flask\\cli.py",
+      "commits": 0.0,
+      "lines_changed": 0.0,
+      "total_cc": 160.0,
+      "max_cc": 18.0,
+      "mi": 26.8,
+      "hotspot_score": NaN
+    },
+    {
+      "file": "flask\\sansio\\app.py",
+      "commits": 0.0,
+      "lines_changed": 0.0,
+      "total_cc": 85.0,
+      "max_cc": 13.0,
+      "mi": 32.5,
+      "hotspot_score": NaN
+    },
+    {
+      "file": "flask\\sansio\\blueprints.py",
+      "commits": 0.0,
+      "lines_changed": 0.0,
+      "total_cc": 76.0,
+      "max_cc": 23.0,
+      "mi": 45.1,
+      "hotspot_score": NaN
+    },
+    {
+      "file": "flask\\sansio\\scaffold.py",
+      "commits": 0.0,
+      "lines_changed": 0.0,
+      "total_cc": 59.0,
+      "max_cc": 10.0,
+      "mi": 43.6,
+      "hotspot_score": NaN
+    }
+  ]
+}

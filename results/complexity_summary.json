@@ -1,0 +1,114 @@
+{
+  "functions_analysed": 359,
+  "mean_cc": 2.69,
+  "median_cc": 2.0,
+  "rank_counts": {
+    "A": 320,
+    "B": 29,
+    "C": 9,
+    "D": 1,
+    "E": 0,
+    "F": 0
+  },
+  "pct_rank_A": 89.1,
+  "functions_cc_over_10": 10,
+  "top10_functions": [
+    {
+      "file": "flask\\sansio\\blueprints.py",
+      "function": "Blueprint.register",
+      "line": 273,
+      "cc": 23,
+      "rank": "D"
+    },
+    {
+      "file": "flask\\cli.py",
+      "function": "routes_command",
+      "line": 1060,
+      "cc": 18,
+      "rank": "C"
+    },
+    {
+      "file": "flask\\app.py",
+      "function": "Flask.make_response",
+      "line": 1224,
+      "cc": 16,
+      "rank": "C"
+    },
+    {
+      "file": "flask\\cli.py",
+      "function": "find_app_by_string",
+      "line": 120,
+      "cc": 14,
+      "rank": "C"
+    },
+    {
+      "file": "flask\\cli.py",
+      "function": "load_dotenv",
+      "line": 698,
+      "cc": 13,
+      "rank": "C"
+    },
+    {
+      "file": "flask\\sansio\\app.py",
+      "function": "App.add_url_rule",
+      "line": 606,
+      "cc": 13,
+      "rank": "C"
+    },
+    {
+      "file": "flask\\app.py",
+      "function": "Flask.url_for",
+      "line": 1102,
+      "cc": 13,
+      "rank": "C"
+    },
+    {
+      "file": "flask\\debughelpers.py",
+      "function": "explain_template_loading_attempts",
+      "line": 124,
+      "cc": 13,
+      "rank": "C"
+    },
+    {
+      "file": "flask\\cli.py",
+      "function": "find_best_app",
+      "line": 41,
+      "cc": 12,
+      "rank": "C"
+    },
+    {
+      "file": "flask\\app.py",
+      "function": "Flask.run",
+      "line": 630,
+      "cc": 12,
+      "rank": "C"
+    }
+  ],
+  "lowest_mi_modules": [
+    {
+      "file": "flask\\app.py",
+      "mi": 22.2,
+      "mi_rank": "A"
+    },
+    {
+      "file": "flask\\cli.py",
+      "mi": 26.8,
+      "mi_rank": "A"
+    },
+    {
+      "file": "flask\\sansio\\app.py",
+      "mi": 32.5,
+      "mi_rank": "A"
+    },
+    {
+      "file": "flask\\sansio\\scaffold.py",
+      "mi": 43.6,
+      "mi_rank": "A"
+    },
+    {
+      "file": "flask\\sansio\\blueprints.py",
+      "mi": 45.1,
+      "mi_rank": "A"
+    }
+  ]
+}

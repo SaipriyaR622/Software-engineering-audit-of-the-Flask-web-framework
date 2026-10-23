@@ -1,0 +1,34 @@
+version,text_starts_with,type,area,reason
+3.2.0,All teardown callbacks are called,Functional defect,,Earlier teardown errors stopped later callbacks from running
+3.2.0,``Flask.select_jinja_autoescape`` uses case-insensitive,Functional defect,,Upper-case extensions were not autoescaped
+3.1.1,``flask --help`` loads the app,Functional defect,,Some commands were missing from help output
+3.1.0,``Request.max_content_length`` can be customized,Feature/Enhancement,,New configuration capability; no defect fixed
+3.0.3,Don't initialize the ``cli`` attribute in the sansio,Functional defect,,CLI attribute was set in the I/O-free base class instead of the Flask class
+2.3.2,Set ``Vary: Cookie`` header,Security,,Missing header allowed caching proxies to leak session cookies
+2.2.5,Set ``Vary: Cookie`` header,Security,,Backport of the same security fix
+2.3.0,Update minimum requirements to the latest,Compatibility/Dependency,,Dependency version bump
+2.3.0,Remove uses of locks,Functional defect,,Locks caused requests to block each other
+2.3.0,Ensure subdomains are applied with nested blueprints,Functional defect,,Subdomain was ignored for nested blueprints
+2.3.0,If a blueprint is created with an empty name,Functional defect,,Missing input validation
+2.3.0,Use postponed evaluation of annotations,Feature/Enhancement,,Code modernisation; no defect
+2.2.3,Fix the type of ``template_folder``,Type-hint defect,,Annotation did not accept pathlib.Path
+2.2.2,Fix the default value for ``app.env``,Functional defect,Config,Wrong default value
+2.1.3,``instance_path`` for namespace packages,Functional defect,,Wrong path chosen for namespace packages
+2.1.0,Overriding ``FlaskClient.open`` will not cause an error,Functional defect,,Redirect handling broke subclasses
+2.1.0,Deleting the session cookie uses the ``httponly``,Security,,Cookie deletion omitted the httponly flag
+2.0.2,Support View and MethodView instances with async,Functional defect,,Async handlers on class-based views did not work
+2.0.2,``jsonify`` handles ``decimal.Decimal``,Regression/Revert,,Decimal support was lost when simplejson was dropped in 2.0.0
+2.0.2,Fix the type of ``static_folder``,Type-hint defect,,Annotation did not accept pathlib.Path
+2.0.2,The CLI loader handles ``**kwargs``,Functional defect,,App factory with **kwargs failed to load
+2.0.1,Show an error when a blueprint name contains a dot,Functional defect,,Missing input validation
+2.0.1,Combine URL prefixes when nesting blueprints,Functional defect,,Nested prefixes were not combined
+2.0.1,Nested blueprints are registered with their dotted name,Functional defect,,Name collisions between nested blueprints
+2.0.1,``register_blueprint`` takes a ``name`` option,Feature/Enhancement,,New option
+2.0.0,Bump minimum versions of other Pallets,Compatibility/Dependency,,Dependency version bump
+2.0.0,Add ``Config.from_file``,Feature/Enhancement,,New API (deprecation is secondary)
+2.0.0,Include ``samesite`` and ``secure`` options when removing,Functional defect,,Cookie removal ignored configured attributes
+2.0.0,Add type hinting,Feature/Enhancement,,Initial addition of type hints
+2.0.2,Fix the order of ``before_request``,,Context/Globals,Area correction: request callback ordering
+2.0.1,Revert a change to the order that URL matching,,Routing/Blueprints,Area correction: URL matching order
+2.0.1,Re-add deprecated ``Config.from_json``,,Config,Area correction: config loading API
+3.1.2,When using ``follow_redirects`` in the test client,,Test client,Area correction: test client behaviour

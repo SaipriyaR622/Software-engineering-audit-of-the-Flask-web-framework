@@ -1,0 +1,157 @@
+{
+  "from_version": "2.0.0",
+  "entries": 181,
+  "entries_released": 169,
+  "rule_entries_corrected_manually": 29,
+  "rule_accuracy_pct": 84.0,
+  "releases": 26,
+  "feature_releases": 6,
+  "patch_releases": 20,
+  "median_days_between_releases": 42.0,
+  "by_type": {
+    "Feature/Enhancement": 67,
+    "Deprecation/Removal": 36,
+    "Functional defect": 28,
+    "Type-hint defect": 23,
+    "Compatibility/Dependency": 15,
+    "Security": 6,
+    "Regression/Revert": 6
+  },
+  "defects_total": 63,
+  "defects_pct_of_entries": 34.8,
+  "defects_in_patch_releases": 50,
+  "pct_defects_in_patch": 79.4,
+  "defects_by_type": {
+    "Functional defect": 28,
+    "Type-hint defect": 23,
+    "Security": 6,
+    "Regression/Revert": 6
+  },
+  "defects_by_area": {
+    "Context/Globals": 10,
+    "Other/Core": 10,
+    "CLI": 8,
+    "Routing/Blueprints": 8,
+    "Sessions/Cookies": 6,
+    "Static/Files": 6,
+    "Templating": 4,
+    "Test client": 4,
+    "Async": 3,
+    "Config": 2,
+    "JSON": 2
+  },
+  "area_by_type": {
+    "Async": {
+      "Functional defect": 2,
+      "Regression/Revert": 0,
+      "Security": 0,
+      "Type-hint defect": 1
+    },
+    "CLI": {
+      "Functional defect": 7,
+      "Regression/Revert": 1,
+      "Security": 0,
+      "Type-hint defect": 0
+    },
+    "Config": {
+      "Functional defect": 1,
+      "Regression/Revert": 1,
+      "Security": 0,
+      "Type-hint defect": 0
+    },
+    "Context/Globals": {
+      "Functional defect": 5,
+      "Regression/Revert": 0,
+      "Security": 0,
+      "Type-hint defect": 5
+    },
+    "JSON": {
+      "Functional defect": 0,
+      "Regression/Revert": 1,
+      "Security": 0,
+      "Type-hint defect": 1
+    },
+    "Other/Core": {
+      "Functional defect": 0,
+      "Regression/Revert": 1,
+      "Security": 1,
+      "Type-hint defect": 8
+    },
+    "Routing/Blueprints": {
+      "Functional defect": 7,
+      "Regression/Revert": 1,
+      "Security": 0,
+      "Type-hint defect": 0
+    },
+    "Sessions/Cookies": {
+      "Functional defect": 1,
+      "Regression/Revert": 0,
+      "Security": 5,
+      "Type-hint defect": 0
+    },
+    "Static/Files": {
+      "Functional defect": 1,
+      "Regression/Revert": 1,
+      "Security": 0,
+      "Type-hint defect": 4
+    },
+    "Templating": {
+      "Functional defect": 1,
+      "Regression/Revert": 0,
+      "Security": 0,
+      "Type-hint defect": 3
+    },
+    "Test client": {
+      "Functional defect": 3,
+      "Regression/Revert": 0,
+      "Security": 0,
+      "Type-hint defect": 1
+    }
+  },
+  "escaped_defects_per_line": {
+    "2.0": 25,
+    "2.1": 5,
+    "2.2": 3,
+    "2.3": 3,
+    "3.0": 6,
+    "3.1": 8,
+    "3.2": 0
+  },
+  "patch_releases_per_line": {
+    "2.0": 3,
+    "2.1": 3,
+    "2.2": 5,
+    "2.3": 3,
+    "3.0": 3,
+    "3.1": 3
+  },
+  "release_dates": {
+    "2.0.0": "2021-05-11",
+    "2.0.1": "2021-05-21",
+    "2.0.2": "2021-10-04",
+    "2.0.3": "2022-02-14",
+    "2.1.0": "2022-03-28",
+    "2.1.1": "2022-03-30",
+    "2.1.2": "2022-04-28",
+    "2.1.3": "2022-07-13",
+    "2.2.0": "2022-08-01",
+    "2.2.1": "2022-08-03",
+    "2.2.2": "2022-08-08",
+    "2.2.3": "2023-02-15",
+    "2.2.4": "2023-04-25",
+    "2.3.0": "2023-04-25",
+    "2.3.1": "2023-04-25",
+    "2.3.2": "2023-05-01",
+    "2.2.5": "2023-05-02",
+    "2.3.3": "2023-08-21",
+    "3.0.0": "2023-09-30",
+    "3.0.1": "2024-01-18",
+    "3.0.2": "2024-02-03",
+    "3.0.3": "2024-04-07",
+    "3.1.0": "2024-11-13",
+    "3.1.1": "2025-05-13",
+    "3.1.2": "2025-08-19",
+    "3.1.3": "2026-02-18"
+  },
+  "generated": "2026-10-23"
+}
